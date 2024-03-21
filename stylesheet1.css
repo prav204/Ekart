@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    background: rgb(239, 232, 232);
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+.login img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.login h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.inp{
+    height: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px 5px solid black;
+}
+.btn1{
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background: rgb(174, 20, 20);
+    color: white;
+}
+.btn1:hover{
+    background: brown;
+}
